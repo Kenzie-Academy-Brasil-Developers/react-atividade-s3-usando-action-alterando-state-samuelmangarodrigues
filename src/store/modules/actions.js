@@ -1,4 +1,6 @@
-export const ChangeName = (name) => ({
-  type: "CHANGE_NAME",
-  name: name,
-});
+export const changeName = (name) => {
+  return {
+    type: "CHANGE_NAME",
+    name: name,
+  };
+};
